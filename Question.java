@@ -61,21 +61,21 @@ public class Question extends Reponse{
 		}
 		
 		System.out.println("Question n°8 :");
-		System.out.println("");
+		System.out.println("Comment s'appelle le 'Nokia 3310' ?");
 		s = rep.nextLine();
 		if (Reponse.verif(s)) {
 			score ++;
 		}
 		
 		System.out.println("Question n°9 :");
-		System.out.println("");
+		System.out.println("Quel est ton code de CB ?");
 		s = rep.nextLine();
 		if (Reponse.verif(s)) {
 			score ++;
 		}
 		
 		System.out.println("Question n°10 :");
-		System.out.println("");
+		System.out.println("Quel est le navigateur internet le moins bien ?");
 		s = rep.nextLine();
 		if (Reponse.verif(s)) {
 			score ++;
