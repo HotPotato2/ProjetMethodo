@@ -81,8 +81,28 @@ public class Question extends Reponse{
 			score ++;
 		}
 		
-		System.out.println("Votre score : " + score); 
+		System.out.println("\nVotre score : " + score + "\n");
+		
+		this.menu();
+		
+	}
+	
+	public void menu() {
+		Scanner scan = new Scanner(System.in);
+		int i;
+		
+		System.out.println("Menu\n1 : Lancer le quiz\n2 : Afficher les scores");
+		
+		i = scan.nextInt();
+		switch(i) {
+		case 1 :
+			this.affiche();
+			break;
 
+		case 2 : 
+			System.out.println("Voici vos scores : ");
+			break;
+		}
 	}
 
 }
